@@ -1,9 +1,9 @@
 -- this code is a mess
 -- some things:
 -- if it crashes or says PAKALA A! you did something wrong. there are NO bugs (it's a feature)
--- .ike extension for arabic numbers in <p> and <o> (0-9)
--- .pona extension for pu numbers (wan, tu, mute, ale/ali)
--- printing numbers is arabic and this is intentional (i'm too lazy to code the converter)
+-- .ike extension for arabic numbers in <p> and <o> and the seme command (0-9)
+-- .pona extension for pu numbers (wan, tu, luka, mute, ale/ali)
+-- printing numbers is arabic and this is intentional (challenge: print pu numbers)
 -- this is the final version no more revisions
 -- if you want latin alphabet:
 -- use a sitelen pona font
@@ -226,7 +226,7 @@ while true do
     io.flush()
     moku = moku - 1
     pali = pali + 1
-    lape(true and 1 or 0)
+    lape(1)
     
 end
 print() -- trailing newline
