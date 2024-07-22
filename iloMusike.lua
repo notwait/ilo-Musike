@@ -130,7 +130,7 @@ function nimi.ken(wan, tu)
 end
 
 function nimi.awen(wan, tu)
-    if poki[wan] then io.write((poki[wan] % 2 == 0) and "," or ".") else pakala() end
+    if poki[wan] then io.write((poki[wan] % 2 == 0) and "," or ".\n") else pakala() end
 end
 function nimi.lape(wan, tu)
     os.exit(0)
@@ -229,4 +229,4 @@ while true do
     lape(1)
     
 end
-print() -- trailing newline
+print("") -- trailing newline
